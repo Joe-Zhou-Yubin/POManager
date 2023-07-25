@@ -3,17 +3,18 @@ package com.POM.POManager.model;
 import java.sql.Date;
 
 import jakarta.persistence.*;
+//import org.hibernate.dialect.SQLServer2016Dialect;
 
 @Entity
-@Table(name = "Manager")
+@Table(name = "POManager")
 public class POmodel {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
 	
-	@Column (name = "order")
-	private String POorder;
+	@Column (name = "number")
+	private String POnumber;
 	
 	
 	@Column(name = "vendor")
@@ -30,7 +31,7 @@ public class POmodel {
 	}
 	
 	public POmodel(String POorder, String POvendor, String POtotal) {
-		this.POorder = POorder;
+		this.POnumber = POorder;
 		this.POvendor = POvendor;
 		this.POtotal = POtotal;
 //		this.POdate = POdate;
@@ -39,13 +40,17 @@ public class POmodel {
 	public long getId() {
 		return id;
 	}
+	
+	public void setId(Long id) {
+		this.id = id;
+	}
 
 	public String getPOorder() {
-		return POorder;
+		return POnumber;
 	}
 
 	public void setPOorder(String POorder) {
-		this.POorder = POorder;
+		this.POnumber = POnumber;
 	}
 
 	public String getPOvendor() {
@@ -72,10 +77,8 @@ public class POmodel {
 //		this.POdate = POdate;
 //	}
 	
-	
 	@Override
-	public String toString() {
-		return "Manager [id=\" + id + \", order=\" + POorder + \", vendor=\" + POvendor + \", total=\" + POtotal + \"]";
-	}
-	
+	  public String toString() {
+	    return "POHeader [id=" + id + ", number=" + POnumber +  " , total=" + POtotal + ", vendor=" + POvendor +"]";
+	  }
 }
