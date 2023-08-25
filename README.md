@@ -28,3 +28,28 @@ Full stack application using Springboot, React and MongoDB. Intuitive design bui
 <img src="https://github.com/Joe-Zhou-Yubin/POManager/raw/main/screenshots/User_Page.png" alt="User Page Screenshot" width="600">
 
 ---
+
+## Create User Page
+<img src="https://github.com/Joe-Zhou-Yubin/POManager/raw/main/screenshots/Create_User.png" alt="Create User Screenshot" width="600">
+
+---
+
+## Individual PO Page
+<img src="https://github.com/Joe-Zhou-Yubin/POManager/raw/main/screenshots/PO_View.png" alt="PO Page Screenshot" width="600">
+
+---
+
+## Create PO Page
+<img src="https://github.com/Joe-Zhou-Yubin/POManager/raw/main/screenshots/Create_PO.png" alt="Create PO Screenshot" width="600">
+
+---
+
+## Create Invoice Page
+<img src="https://github.com/Joe-Zhou-Yubin/POManager/raw/main/screenshots/Create_Invoice.png" alt="Create Invoice Screenshot" width="600">
+
+---
+
+## Create Submission Page
+<img src="https://github.com/Joe-Zhou-Yubin/POManager/raw/main/screenshots/Create_Submission.png" alt="Create Submission Screenshot" width="600">
+
+---
